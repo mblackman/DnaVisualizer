@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnaVisualizer", "DnaVisualizer\DnaVisualizer.csproj", "{7BE5FEDE-C6EB-4814-B0A6-B178C6C9E3FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "DnaVisualizerTests\UnitTests.csproj", "{7635A161-A48E-4F5A-B528-5B2FFBB18CCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnaRenderers", "DnaRenderers\DnaRenderers.csproj", "{2C97AD41-C053-476B-9531-C1F9EAA5A213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnaBase", "DnaObjects\DnaBase.csproj", "{0F6689BE-800B-420A-B5A9-EB443DD1F558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnaImageRendering", "DnaImageRendering\DnaImageRendering.csproj", "{885B6049-36A6-49E7-95B0-A32156384050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "General", "General\General.csproj", "{AB0C4909-10D1-4DFC-ADB2-AFBC275B911F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BE5FEDE-C6EB-4814-B0A6-B178C6C9E3FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE5FEDE-C6EB-4814-B0A6-B178C6C9E3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE5FEDE-C6EB-4814-B0A6-B178C6C9E3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE5FEDE-C6EB-4814-B0A6-B178C6C9E3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7635A161-A48E-4F5A-B528-5B2FFBB18CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7635A161-A48E-4F5A-B528-5B2FFBB18CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7635A161-A48E-4F5A-B528-5B2FFBB18CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7635A161-A48E-4F5A-B528-5B2FFBB18CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C97AD41-C053-476B-9531-C1F9EAA5A213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C97AD41-C053-476B-9531-C1F9EAA5A213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C97AD41-C053-476B-9531-C1F9EAA5A213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C97AD41-C053-476B-9531-C1F9EAA5A213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F6689BE-800B-420A-B5A9-EB443DD1F558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6689BE-800B-420A-B5A9-EB443DD1F558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F6689BE-800B-420A-B5A9-EB443DD1F558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F6689BE-800B-420A-B5A9-EB443DD1F558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885B6049-36A6-49E7-95B0-A32156384050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885B6049-36A6-49E7-95B0-A32156384050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885B6049-36A6-49E7-95B0-A32156384050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885B6049-36A6-49E7-95B0-A32156384050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB0C4909-10D1-4DFC-ADB2-AFBC275B911F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB0C4909-10D1-4DFC-ADB2-AFBC275B911F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB0C4909-10D1-4DFC-ADB2-AFBC275B911F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB0C4909-10D1-4DFC-ADB2-AFBC275B911F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
